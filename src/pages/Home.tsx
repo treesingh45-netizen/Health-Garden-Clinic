@@ -12,11 +12,11 @@ export default function Home() {
     <div className="w-full">
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden">
-        {/* Background Image with Parallax feel (CSS based) */}
+        {/* Background Image */}
         <div 
-          className="absolute inset-0 z-0 bg-[url('https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=2920&auto=format&fit=crop')] bg-cover bg-center bg-no-repeat bg-fixed"
+          className="absolute inset-0 z-0 bg-[url('https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=2920&auto=format&fit=crop')] bg-cover bg-center bg-no-repeat lg:bg-fixed"
         >
-          <div className="absolute inset-0 bg-cream/70 backdrop-blur-[2px]"></div>
+          <div className="absolute inset-0 bg-cream/85 lg:bg-cream/70 backdrop-blur-[2px]"></div>
         </div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
@@ -122,7 +122,7 @@ export default function Home() {
               { title: 'Acupuncture', desc: 'Restore energy flow and alleviate pain through traditional fine-needle therapy.', img: 'https://images.pexels.com/photos/6076146/pexels-photo-6076146.jpeg' },
               { title: 'Massage Therapy', desc: 'Deep tissue, Indian head, and relaxing body massages to release tension.', img: 'https://images.pexels.com/photos/5888099/pexels-photo-5888099.jpeg' },
               { title: 'Cupping Therapy', desc: 'Ancient technique to improve circulation and relieve muscle stiffness.', img: 'https://media.istockphoto.com/id/503889644/photo/young-woman-getting-cupping-treatment.jpg?s=612x612&w=0&k=20&c=9gC4hwhd4yYmW8yzRSbGmLGP8Kkk7ETiautH-O-Ffvc=' },
-              { title: 'Facial Treatments', desc: 'Rejuvenating facial acupuncture and cupping for a natural glow.', img: 'https://media.istockphoto.com/id/1399310930/photo/caucasian-woman-getting-lifting-therapy-massage-in-a-spa-salon-skin-care-rejuvenation.jpg?s=612x612&w=0&k=20&c=ykwU2ts0Sf7hrmmrnp2cjf4VSLMpRhP4cysl02rAXGo=' },
+              { title: 'Facial Treatments', desc: 'Rejuvenating facial acupuncture and cupping for a natural glow.', img: 'https://images.pexels.com/photos/3865548/pexels-photo-3865548.jpeg' },
               { title: 'Reflexology', desc: 'Targeted foot massage to stimulate natural healing across the body.', img: 'https://media.istockphoto.com/id/1470570719/photo/massaging-foot-pressure-points.jpg?s=612x612&w=0&k=20&c=2fsx7KoXkjxh8JOrCz9HRCQ5Od7ZGgIXPrlF1JpYdEA=' },
               { title: 'Auricular Acupuncture', desc: 'Specialized ear acupuncture for stress relief, addiction support, and balance.', img: 'https://media.istockphoto.com/id/459979901/photo/alternative-practitioner-treating-woman-with-acupuncture.jpg?s=612x612&w=0&k=20&c=pMiVfezUPpeerIuo58Hg8ohSAEl9W6lXsVZiT35Wqko=' },
             ].map((treatment, index) => (

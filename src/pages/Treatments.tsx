@@ -44,7 +44,7 @@ const treatments = [
     id: 'facial',
     title: 'Facial Treatments',
     desc: 'Specialized aesthetic and therapeutic treatments focusing on the face to rejuvenate the skin, reduce tension, and promote a natural, healthy glow.',
-    img: 'https://media.istockphoto.com/id/1399310930/photo/caucasian-woman-getting-lifting-therapy-massage-in-a-spa-salon-skin-care-rejuvenation.jpg?s=612x612&w=0&k=20&c=ykwU2ts0Sf7hrmmrnp2cjf4VSLMpRhP4cysl02rAXGo=',
+    img: 'https://images.pexels.com/photos/3865548/pexels-photo-3865548.jpeg',
     duration: '45-75 mins',
     benefits: ['Facial Cupping', 'Facial Rejuvenation', 'Collagen Facial', 'Facial Acupuncture'],
     who: 'Those looking for natural anti-aging solutions, improved skin tone, or relief from jaw tension.'
