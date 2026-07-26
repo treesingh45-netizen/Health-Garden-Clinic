@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --color-sage: #7A9B76;
+  --color-sage-light: #9BB898;
+  --color-sage-dark: #5B7A57;
+  --color-forest: #3E6B56;
+  --color-forest-dark: #2A4A3B;
+  --color-beige: #F6F1EA;
+  --color-cream: #FAFAF7;
+  --color-gold: #C9A86A;
+  --color-charcoal: #2C2C2C;
+
+  --font-cormorant: "Cormorant Garamond", serif;
+  --font-manrope: "Manrope", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+}
+
+@layer base {
+  body {
+    @apply font-manrope text-charcoal bg-cream antialiased;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-cormorant;
+  }
+}
+
+.glass {
+  @apply bg-white/70 backdrop-blur-md border border-white/20;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Health Garden Clinic",
+  "description": "A modern, premium, responsive healthcare website for Health Garden Clinic, a holistic wellness and acupuncture clinic located in Beaconsfield.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
